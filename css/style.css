@@ -1,0 +1,524 @@
+/* --------------------Common css start------------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul ,ol {
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+}
+
+.clr{
+    clear: both;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    color:#02918c;
+    margin-top: 100px;
+}
+
+.title p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #7e8287;
+	width: 877px;
+	margin: 0 auto;
+	margin-bottom: 85px;
+	margin-top: 20px;
+}
+
+.title p span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+
+/* --------------------Common css End------------------ */
+
+/* --------------------Header css start------------------ */
+
+header{
+background: #02918c ;
+}
+
+header .logo{
+    width: 20%;
+}
+
+header .logo a{
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+header .nav-item{
+    width: 80%;
+}
+
+header .nav-item ul{
+    text-align: right;
+}
+
+header .nav-item ul li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+
+header .nav-item ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+header .nav-item ul li a:hover{
+    color: #cfc91d;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* --------------------Header css End------------------ */
+
+/* --------------------Banner css start------------------ */
+#banner-part{
+    background: url(../img/banner-img.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner-part .text{
+    text-align: center;
+}
+
+#banner-part .text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffff;
+    padding-top: 210px ;
+}
+
+#banner-part .text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffff;
+    letter-spacing: 20px;
+}
+
+
+#banner-part .text h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffff;
+    padding-bottom: 46px;
+}
+
+#banner-part .text a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #0b1016;
+    background: #cfc91d;
+    padding-top: 19px;
+    padding-left: 41px;
+    padding-bottom:  16px ;
+    padding-right: 42px;
+    margin-top: 51px;
+    margin-bottom: 209px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#banner-part .text a:hover{
+    background: #fff;
+    transition: .5;
+    -webkit-transition: .5;
+    -moz-transition: .5;
+    -ms-transition: .5;
+    -o-transition: .5;
+}
+
+/* --------------------Banner css End------------------ */
+
+/* --------------------About css start------------------ */
+#about-part{
+    margin-bottom: 200px;
+}
+
+
+#about-part .main{
+    justify-content: space-between;
+}
+
+#about-part .main .item{
+    width: 19%;
+    text-align: center;
+}
+
+#about-part .main .item img{
+    margin-top: 37px;
+}
+
+#about-part .main .item h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding-top: 28px;
+    position: relative;
+}
+
+#about-part .main .item h2::after {
+	position: absolute;
+	right: -45px;
+	bottom: -122px;
+	width: 2px;
+	height: 251px;
+	background: #d9dbdb;
+	content: '';
+}
+
+#about-part .main .item:last-child h2::after{
+    opacity: 0;
+}
+
+#about-part .main .item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #7e8287;
+    width: 207px;
+    margin: 0 auto;
+    margin-top: 29px;
+    padding-bottom: 37px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#about-part .main .item:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* --------------------About css End------------------ */
+
+/* --------------------Servce css Start------------------ */
+
+#service-part{
+    margin-bottom: 200px;
+    background: #f0f0e8;
+}
+
+#service-part .main .serv-text{
+    width: 50%;
+    margin-top: 75px;
+}
+
+#service-part .main .serv-text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+
+#service-part .main .serv-text img{
+margin-top: 25px;
+}
+
+#service-part .main .serv-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    margin-top: 30px;
+}
+
+#service-part .main .serv-text .main{
+    margin-top: 50px;
+}
+
+#service-part .main .serv-text .main .serice-title{
+    width: 50%;
+    margin: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#service-part .main .serv-text .main .serice-title .s-title{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#service-part .main .serv-text .main .serice-title:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#service-part .main .serv-text .main .serice-title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin-top: 17px;
+}
+#service-part .main .serv-text .main .serice-title p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    margin-top: 17px;
+    width: 165px;
+    margin-bottom: 30px;
+}
+
+
+
+#service-part .main .serv-img{
+    width: 50%;
+}
+
+
+
+#service-part .main .serv-img .img{
+    margin-left: 124px;
+}
+
+#service-part .main .serv-img .img img{
+    opacity: 30%;
+}
+
+/* --------------------Servce css End------------------ */
+
+
+/* --------------------work css start------------------ */
+
+#work-part .main .img{
+    width: 25%;
+    position: relative;
+    cursor: pointer;
+}
+
+#work-part .main .img img{
+    width: 100%;
+}
+
+
+#work-part .main .img .overlay{
+    width: 100%;
+    height: 100%;
+    background: #02918c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(.0);
+    -webkit-transform: scale(.0);
+    -moz-transform: scale(.0);
+    -ms-transform: scale(.0);
+    -o-transform: scale(.0);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    text-align: center;
+}
+
+#work-part .main .img:hover .overlay{
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    opacity: 85%;
+}
+
+#work-part .main .img .overlay h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+#work-part .main .img .overlay p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 188px;
+    margin: 0 auto;
+}
+
+/* --------------------work css End------------------ */
+
+
+/* --------------------Contact css start------------------ */
+
+footer {
+    text-align: center;
+}
+
+footer .details{
+    background: #000;
+    height: 570px;
+    text-align: center;
+}
+
+footer .details .name a{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    padding-top: 64px;
+    position: relative;
+}
+
+footer .details .name a::after {
+	position: absolute;
+	bottom: -36px;
+	right: -300px;
+	width: 635px;
+	height: 2px;
+	background: #898989;
+	content: '';
+}
+
+footer .details .EMAIL a{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    padding-top: 64px;
+    position: relative;
+}
+
+footer .details .EMAIL a::after {
+	position: absolute;
+	bottom: -34px;
+	right: -264px;
+	width: 635px;
+	height: 2px;
+	background: #898989;
+	content: '';
+}
+
+footer .details .MESSAGE a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    padding-top: 64px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+footer .details .MESSAGE a::after {
+	position: absolute;
+	bottom: 23px;
+	right: -372px;
+	width: 867px;
+	height: 2px;
+    background: #898989;
+	content: '';
+}
+
+footer .details .MESSAGE a::before {
+	position: absolute;
+	bottom: -45px;
+	right: -372px;
+	width: 867px;
+	height: 2px;
+	background: #898989;
+	content: '';
+}
+
+footer .details .button button{
+    background: #cfc91d;
+    border: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 40px;
+    margin-top: 120px;
+    letter-spacing: 2px;
+}
+
+
+/* --------------------Contact css End------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
